@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    color: #3C3C3C !important;
+}
+header{ 
+    height: 100%;
+}
+h2 {
+    font-family: 'Bebas Neue';
+    font-size: 5rem !important;
+    color: #363958 !important;
+}
+.default-color {
+    color: #363958 !important;
+}
+.special {
+    color: #FA804C !important;
+}
+.btn {
+    padding: none !important;
+}
+.bn {
+    border-radius: 10px !important;
+    background-image: linear-gradient(#3D4FF3,#3543BC);
+    transition: background-image 1s linear;
+    padding: 18px 34px !important;
+}
+.bn:hover{
+    background-image: linear-gradient(360deg,#3D4FF3,#3543BC);
+  
+}
+.card {
+    border: none !important;
+}
+.card-img-part {
+    max-width: 300px;
+    background-color: #F1F1F1;
+    margin: 20px auto !important;
+    height: 300px;
+}
+main{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1336%26quot%3b)' fill='none'%3e%3ccircle r='36.14' cx='905.16' cy='517.69' fill='url(%23SvgjsLinearGradient1337)'%3e%3c/circle%3e%3ccircle r='40.835' cx='814.41' cy='105.39' fill='url(%23SvgjsLinearGradient1338)'%3e%3c/circle%3e%3ccircle r='46' cx='1192.97' cy='18.06' fill='url(%23SvgjsLinearGradient1339)'%3e%3c/circle%3e%3ccircle r='36.915' cx='280.09' cy='505.53' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='53.805' cx='38.03' cy='406.58' fill='url(%23SvgjsLinearGradient1340)'%3e%3c/circle%3e%3ccircle r='22.765' cx='901.07' cy='130.86' fill='url(%23SvgjsLinearGradient1341)'%3e%3c/circle%3e%3ccircle r='53.55' cx='397.84' cy='11.4' fill='url(%23SvgjsLinearGradient1342)'%3e%3c/circle%3e%3ccircle r='20.695' cx='1160.04' cy='297.9' fill='url(%23SvgjsLinearGradient1343)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1336'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='832.88' y1='517.69' x2='977.44' y2='517.69' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1337'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='732.74' y1='105.39' x2='896.08' y2='105.39' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1338'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1100.97' y1='18.060000000000002' x2='1284.97' y2='18.060000000000002' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1339'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='-69.58' y1='406.58' x2='145.64' y2='406.58' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1340'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='855.5400000000001' y1='130.86' x2='946.6000000000001' y2='130.86' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1341'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='290.74' y1='11.400000000000006' x2='504.94' y2='11.400000000000006' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1342'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1118.6499999999999' y1='297.9' x2='1201.4299999999998' y2='297.9' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1343'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    overflow: hidden;
+}
+.promo-img {
+    max-width: 600px;
+    max-height: 354px;
+    min-width: 250px;
+    min-height: 180px;
+}
+.promo-img > img {
+    margin-top: 10px !important;
+    width: 100%;
+    margin: 0 auto;
+}
+.promo-cards {
+    max-width: 489px;
+    background-color: rgba(255, 255, 255, 0.255);
+}
