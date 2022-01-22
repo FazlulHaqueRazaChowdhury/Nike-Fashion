@@ -53,7 +53,25 @@ main{
     width: 100%;
     margin: 0 auto;
 }
+nav {
+    background-color: #FFF9F4 !important;
+}
 .promo-cards {
     max-width: 489px;
     background-color: rgba(255, 255, 255, 0.255);
+}
+.nav-item{
+    position: relative;
+}
+.lines {
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 0%;
+}
+.nav-item:hover .lines{
+    width: 100%;
+    transition: width .1s linear;
+}
+#banner {
+    margin-top: 57px;
 }
